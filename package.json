@@ -1,0 +1,37 @@
+{
+  "name": "bookinggo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "mobx": "^6.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-elastic-carousel": "^0.11.5",
+    "react-hook-form": "^7.43.8",
+    "react-icons": "^4.8.0",
+    "react-rating": "^2.0.5",
+    "react-router-dom": "^6.10.0",
+    "styled-components": "^5.3.9",
+    "sweetalert2": "^11.7.3",
+    "uid": "^2.0.2",
+    "v4": "^0.0.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
